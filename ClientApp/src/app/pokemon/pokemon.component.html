@@ -1,0 +1,35 @@
+<div id="searchSection">
+    <label>Name:
+      <input [(ngModel)]="targetPoke" placeholder="name"/>
+      <button id="searchbtn" (click)="getPoke(targetPoke);">Search</button>
+    </label>
+</div>
+
+<br/>
+
+<div id="content">
+
+    <label *ngIf="!pokemones"><em>Loading...</em></label>
+
+    <table class='table table-striped' aria-labelledby="tableLabel" *ngIf="pokemones">
+    <thead>
+        <tr>
+        <th>Name</th>
+        <th>Base Experience</th>
+        <th>ID</th>
+        <th>Height</th>
+        <th>Weight</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let poke of pokemones">
+        <td>{{ poke.name }}</td>
+        <td>{{ poke.base_experience }}</td>
+        <td>{{ poke.id }}</td>
+        <td>{{ poke.height }}</td>
+        <td>{{ poke.weight }}</td>
+        </tr>
+    </tbody>
+    </table>
+
+</div>
