@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Desktop\\PokemonApi\\PokemonApi\\PokemonApi.csproj": {}
+    "C:\\Users\\USER\\Desktop\\PokemonApp\\PokemonApp\\PokemonApi\\PokemonApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Desktop\\PokemonApi\\PokemonApi\\PokemonApi.csproj": {
+    "C:\\Users\\USER\\Desktop\\PokemonApp\\PokemonApp\\PokemonApi\\PokemonApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Desktop\\PokemonApi\\PokemonApi\\PokemonApi.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Desktop\\PokemonApp\\PokemonApp\\PokemonApi\\PokemonApi.csproj",
         "projectName": "PokemonApi",
-        "projectPath": "C:\\Users\\USER\\Desktop\\PokemonApi\\PokemonApi\\PokemonApi.csproj",
+        "projectPath": "C:\\Users\\USER\\Desktop\\PokemonApp\\PokemonApp\\PokemonApi\\PokemonApi.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Desktop\\PokemonApi\\PokemonApi\\obj\\",
+        "outputPath": "C:\\Users\\USER\\Desktop\\PokemonApp\\PokemonApp\\PokemonApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",

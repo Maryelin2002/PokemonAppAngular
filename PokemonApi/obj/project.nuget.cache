@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZWdGLxWclpw9xL1TdxD9DX41VrCE/BRC5kLIJuY/5UyH6pzT2b0B34Z0n/5TUm1524kJ1joNy0AjsgD0IGpXIw==",
+  "dgSpecHash": "hZTjoiuoMuOKfLegbnLxv4iQbRdUNaMnjWb/T3mJmo8CIKliQyiEbms163gwxUqLGxWAcH6PQSgMrFvdvSOY3w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Desktop\\PokemonApi\\PokemonApi\\PokemonApi.csproj",
+  "projectFilePath": "C:\\Users\\USER\\Desktop\\PokemonApp\\PokemonApp\\PokemonApi\\PokemonApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],

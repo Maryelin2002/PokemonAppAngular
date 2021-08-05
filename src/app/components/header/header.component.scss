@@ -1,13 +1,18 @@
 @import "../../../assets/styles/variables.scss";
 
 .mat-toolbar{
-  background-color: $blue;
+  background-color: $white;
+  height: 150px;
+}
+
+.mat-toolbar-row.span1{
+  background-color: $yellow;
 }
 
 img:hover{
   cursor: pointer;
 }
 
-h2{
-  color: $white;
+.span {
+  margin: 25px 50px 75px 100px;
 }
