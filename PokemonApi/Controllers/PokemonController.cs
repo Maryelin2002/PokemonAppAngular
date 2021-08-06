@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -7,29 +7,21 @@ using System.Threading.Tasks;
 
 namespace PokemonApi.Controllers
 {
-    [Route("[controller]")]
-    [ApiController]
-    public class PokemonController : ControllerBase
+  [Route("[controller]")]
+  [ApiController]
+  public class PokemonController : ControllerBase
+  {
+    Pokemon pokemon = new Pokemon();
+
+    [HttpGet("{id}")]
+    public async Task<IActionResult> GetById([FromRoute] int id)
     {
-        public string BaseUrl = "https://pokeapi.co/api/v2/pokemon/";
+      var result = await pokemon.GetPokemon(id);
 
-        [HttpGet("{id}")]
-        public async Task<string> GetPokemons([FromRoute] int id)
-        {
-            Pokemon pokemon = new Pokemon();
+      if (result is null)
+        return NotFound($"The record with id {id} was not found");
 
-            using var client = new HttpClient();
-            client.BaseAddress = new Uri(BaseUrl);
-
-
-            HttpResponseMessage res = await client.GetAsync($"{id}");
-            if (res.IsSuccessStatusCode)
-            {
-                var jsonResponse = res.Content.ReadAsStringAsync().Result;
-                pokemon = JsonConvert.DeserializeObject<Pokemon>(jsonResponse);
-            }
-
-            return res.Content.ReadAsStringAsync().Result;
-        }
+      return Ok(result);
     }
+  }
 }

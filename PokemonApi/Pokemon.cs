@@ -1,4 +1,4 @@
-﻿using Newtonsoft.Json;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -302,7 +302,7 @@ namespace PokemonApi
         public Type type { get; set; }
     }
 
-    public class Pokemon
+    public class Pokemon : GetPokemons
     {
         public int id { get; set; }
         public string name { get; set; }
