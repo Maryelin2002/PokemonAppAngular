@@ -11,7 +11,7 @@ namespace PokemonApi
 	{
 		public string BaseUrl = "https://pokeapi.co/api/v2/pokemon/";
 
-		public async Task<IQueryable<Pokemon>> GetPokemon(int id)
+		public async Task<string> GetPokemon(int id)
 		{
 			Pokemon pokemon = new Pokemon();
 
@@ -25,7 +25,7 @@ namespace PokemonApi
 				pokemon = JsonConvert.DeserializeObject<Pokemon>(jsonResponse);
 			}
 
-			var result = new[] { pokemon }.AsQueryable();
+      var result = res.Content.ReadAsStringAsync().Result;
 
       return result;
 		}

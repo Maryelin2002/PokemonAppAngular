@@ -48,19 +48,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\marye\\.nuget\\packages\\": {}
+    "C:\\Users\\USER\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marye\\Desktop\\PokemonApp\\PokemonAppAngular\\PokemonApi\\PokemonApi.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\Error\\PokemonAppAngular\\PokemonAppAngular\\PokemonApi\\PokemonApi.csproj",
       "projectName": "PokemonApi",
-      "projectPath": "C:\\Users\\marye\\Desktop\\PokemonApp\\PokemonAppAngular\\PokemonApi\\PokemonApi.csproj",
-      "packagesPath": "C:\\Users\\marye\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marye\\Desktop\\PokemonApp\\PokemonAppAngular\\PokemonApi\\obj\\",
+      "projectPath": "C:\\Users\\USER\\Desktop\\Error\\PokemonAppAngular\\PokemonAppAngular\\PokemonApi\\PokemonApi.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\Desktop\\Error\\PokemonAppAngular\\PokemonAppAngular\\PokemonApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\marye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -101,12 +101,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.13, 3.1.13]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -115,7 +109,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
